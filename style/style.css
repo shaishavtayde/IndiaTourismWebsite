@@ -1,0 +1,119 @@
+body
+{
+      background-image:url(../imh/a.jpg);
+      background-size: cover;
+      background-color: #C8BEBC
+      padding: 0px;
+      margin: 0px;
+      
+
+
+
+}
+nav{
+  width: 100%; height: 12vh;
+  background: rgba(0,0,0,0.2);
+  color: white; display: flex; justify-content: space-between;
+  align-items: center; text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav .logo{
+    width: 25%; text-align: center;
+
+}
+nav .menu{
+  width: 40%;
+  display: flex; justify-content: space-around;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none; color: white;
+    font-weight: bold;
+}
+
+ .container
+ {
+
+   background: rgba(0,0,0,0.2);
+   width: 600px;
+   height: 600px;
+   border-radius: 03px;
+   margin: 0 auto;
+   border-bottom: 1px solid #CCC
+   margin-top: 50px;
+   font-family: 'Josefin Sans', sans-serif;
+
+  }
+
+ .paragraph
+ {
+   background: rgba(0,0,0,0.2);
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+   border-radius: 03px;
+   padding: 15px; 0px; 15px; 0px;
+   margin-bottom: 50px;
+   opacity: 0.8;
+   font-family: 'Josefin Sans', sans-serif;
+   transition: all 0.5s ease;
+
+
+ }
+ .ipt
+ {
+   width: 235px;
+   height: 35px;
+   border-radius: 02px;
+   border: none;
+   border: 1px solid #CCC;
+   margin-left: 25px;
+   padding-left: 05px;
+   border-left: 03px solid #27ae60;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+ }
+ label
+ {
+   margin-left: 15px;
+
+   color: white;
+
+   padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+ }
+ .selection
+ {
+   width: 245px;
+   height: 35px;
+
+   margin-left: 113px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+ }
+ button
+ {
+   margin-left: 25px;
+   margin-top: 30px;
+   padding: 10px; 20px; 10px; 20px;
+   background: #27ae60;
+   color: white;
+   border: none;
+   border-radius: 02px;
+  font-family: 'Josefin Sans', sans-serif;
+
+
+ }
+ .ipt:focus
+ {
+   border-left: 03px solid #e74c3c;
+ }
